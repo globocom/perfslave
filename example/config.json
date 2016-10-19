@@ -1,0 +1,5 @@
+{
+  "wptHost": "https://webpagetest.org",
+  "location": "ec2-sa-east-1:Chrome.Edge",
+  "emulateMobile": true
+}

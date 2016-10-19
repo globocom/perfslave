@@ -1,0 +1,21 @@
+{
+  "name": "perfslave",
+  "version": "1.0.0",
+  "description": "configure url for performance monitor",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "performance"
+  ],
+  "author": "multicontent",
+  "license": "MIT",
+  "dependencies": {
+    "kue": "^0.11.0",
+    "webpagetest": "^0.3.4",
+    "yargs": "^4.7.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4"
+  }
+}
