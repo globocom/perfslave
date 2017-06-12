@@ -63,7 +63,7 @@ node schedule.js http://globoesporte.globo.com http://globo.com -t ANOTHER_THRES
 
 Than, each job was scheduled with one threshold for one or more web pages.
 
-Your config files should accept all options from [WebPageTest Npm Module](https://www.npmjs.com/package/webpagetest#test-works-for-runtest-method-only), like key (for API key), lagin and password for authenticated tests, etc. See example folder for more details.
+Your config files should accept all options from [WebPageTest Npm Module](https://www.npmjs.com/package/webpagetest#test-works-for-runtest-method-only), like key (for API key), login and password for authenticated tests, etc. See example folder for more details.
 
 #### Worker
 
@@ -73,7 +73,7 @@ You can run worker using this command:
 
 ```bash
 
-nose worker.js
+node worker.js
 
 ```
 
