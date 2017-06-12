@@ -1,12 +1,12 @@
 /*jslint node: true */
 'use strict';
 
-var Util = require('./lib/util');
-var Settings = require('./lib/settings');
-var fs = require('fs');
+const Util = require('./lib/util');
+const Settings = require('./lib/settings');
+const fs = require('fs');
 
 
-var options = require('yargs')
+const options = require('yargs')
 .demand([1, 't', 'c'])
 .alias('t', 'threshold')
 .string('t')
